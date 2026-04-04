@@ -57,7 +57,7 @@ Webhooks ──→     └── Message Feed ←── Claude's Reply
 3. Configure iMessage address and contacts in the setup wizard
 4. Install MCP server (Setup tab)
 5. Register: `claude mcp add morselhub node ~/morselhub-mcp-server.mjs`
-6. Start: `claude --dangerously-load-development-channels server:morselhub`
+6. Start: `claude --allowedTools "mcp__morselhub__*,mcp__retrocode__*" --dangerously-load-development-channels server:morselhub`
 
 ## MCP Tools
 
